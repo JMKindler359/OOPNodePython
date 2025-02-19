@@ -8,7 +8,7 @@ class Account :
     def deposit(self, amount,):
         if amount > 0:
             self.balance += amount
-            print(f"Deposited ${amount}. New balance: ${self.balance}")py get-pip.py
+            print(f"Deposited ${amount}. New balance: ${self.balance}")
         else:
             print("Deposit amount must be positive.")
 
